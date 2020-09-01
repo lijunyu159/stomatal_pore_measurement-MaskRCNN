@@ -1,5 +1,6 @@
 # An automatic model to measure the parameters of living pores based on MRCNN
-DOI：10.3390/f11090954
+## DOI：10.3390/f11090954
+
 本项目是在 [https://github.com/matterport/Mask_RCNN](mrcnn官方实现版本(keras+tensorflow)) 的基础上，按照实际需求实现的。
  实现配置:Tensorflow 1.10.0;keras 2.0.8;python 3.5。
  实现的功能是通过椭圆拟合操作自动测量**活体气孔**的孔隙参数(长轴，短轴，面积，离心率，开度)，并与标记真值做比较，进行定量分析。
